@@ -2,7 +2,7 @@
 variable "aws_region" {
   description = "AWS region"
   type        = string
-  default     = "us-east-1"
+  default     = "us-east-2"
 }
 
 variable "environment" {
@@ -22,10 +22,6 @@ variable "vpc_cidr" {
 
 variable "cluster_name" {
   default = "capstone-eks"
-}
-
-variable "aws_region" {
-  default = "us-east-2"
 }
 
 variable "cluster_version" {
