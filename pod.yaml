@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: abcapp-container
-    image: abc_tech:$BUILD_NUMBER
+    image: abc_tech:12
