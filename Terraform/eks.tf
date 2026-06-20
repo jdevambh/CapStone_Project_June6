@@ -13,7 +13,7 @@ module "eks" {
 
   eks_managed_node_groups = {
     workers = {
-      instance_types = ["t3.micro"]
+      instance_types = ["c7i-flex.large"]
 
       min_size     = 2
       max_size     = 4
