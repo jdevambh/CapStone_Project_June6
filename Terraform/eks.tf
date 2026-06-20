@@ -15,9 +15,9 @@ module "eks" {
     workers = {
       instance_types = ["c7i-flex.large"]
 
-      min_size     = 2
+      min_size     = 0
       max_size     = 4
-      desired_size = 2
+      desired_size = 0
     }
   }
 }
